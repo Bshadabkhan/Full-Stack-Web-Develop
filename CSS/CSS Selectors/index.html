@@ -79,4 +79,44 @@
     <h2 id="mainn">Green</h2>
     <h2 id="mainnn">Blue</h2>
 </body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector</title>
+    <style>
+        p[draggable]{
+            color: violet;
+        }
+        h2{
+            color: red;
+        }
+        .green-text{
+            color: green;
+        }
+        #main{
+            color: blue;
+        }
+        #mainn{
+            color: green;
+        }
+        #bot{
+            color: black;
+        }
+    
+       
+    </style>
+</head>
+<body>
+    <h2>Red</h2>
+    <h2 class="green-text">Green</h2>
+    <h2 id="main">Blue</h2>
+    <p draggable="true">Drag me</p>
+    <p draggable="false" id="mainn">Don't drag me</p>
+    <p draggable="true" id="bot">drag me</p>
+</body>
 </html>
