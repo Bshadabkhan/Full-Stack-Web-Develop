@@ -1,3 +1,7 @@
-*{
-    background-color: aqua;
+.body{
+    font-weight: 600;
+}
+
+h1{
+    color: royalblue;
 }
