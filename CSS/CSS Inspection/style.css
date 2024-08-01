@@ -1,7 +1,16 @@
+html{
+    background-color: aliceblue;
+}
+
 .body{
     font-weight: 600;
 }
 
 h1{
     color: royalblue;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
