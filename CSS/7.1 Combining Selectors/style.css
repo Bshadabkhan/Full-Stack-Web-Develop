@@ -7,7 +7,6 @@ h2 {
 .box > p {
   color: firebrick;
 }
-
 /* Descendent */
 .box li {
   color: blue;
